@@ -1,6 +1,14 @@
 # Cook County Housing Fairness Study (UC Berkeley Data 100 — Projects A1 & A2)
 
-This repo documents my personal take on the UC Berkeley Data 100 Projects A1 and A2. The work examines Cook County (Chicago) housing assessments through the lens of fairness: why lower-valued homes were often over-assessed while high-priced properties were under-assessed, and what “fair” modeling could look like when real people and taxes are on the line.
+This repo documents my personal take on the UC Berkeley Data 100 Projects A1 and A2. The work examines Cook County (Chicago) housing assessments through the lens of fairness: why lower-valued homes were often over-assessed while high-priced properties were under-assessed, and what "fair" modeling could look like when real people and taxes are on the line.
+
+## Key Findings
+
+![MAPE Analysis](mape.png)
+*Mean Absolute Percentage Error analysis revealing disproportionate assessment errors across price ranges*
+
+![Residuals Analysis](residuals.png)
+*Residual patterns demonstrating systematic bias in housing assessments*
 
 ## What I explored
 - Dug into the Cook County training data to understand distributions, spot outliers (like the spike at \$1 sales), and justify filtering rules.
